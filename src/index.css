@@ -23,7 +23,7 @@
 }
 
 .red-text {
-	color: navy;
+	color: darkgreen;
 }
 
 .center-text {
@@ -46,7 +46,7 @@
 }
 
 .navbar {
-	background-color: #0B0B45;
+	background-color: darkgreen;
 }
 
 .navbar button {
@@ -82,7 +82,7 @@
 #back-button {
 	color: #ddd;
 	z-index: 9999;
-	background-color: #0B0B45;
+	background-color: darkgreen;
 	transform: scale(2);
 	margin-top: 8px;
 	position: fixed;
@@ -95,7 +95,7 @@
 	margin-top: -3px;
 	width: 60px;
 	height: 40px;
-	background-color: #0B0B45;
+	background-color: darkgreen;
 }
 
 
@@ -154,7 +154,7 @@
 
 .notification-title {
 	font-weight: bold !important;
-	color: navy;
+	color: darkgreen;
 	margin-bottom: 5px !important;
 }
 
