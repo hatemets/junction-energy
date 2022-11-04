@@ -1,0 +1,183 @@
+.top-card {
+	margin-top: 7vh !important;
+}
+
+.main-wrapper > *:not(.navbar) {
+	margin-top: 2vh;
+}
+
+.line-tight {
+	line-height: 1.2;
+}
+
+.showcase-text {
+	font-size: 32px;
+	font-weight: bold !important;
+	color: black;
+}
+
+.showcase-text-large {
+	font-size: 48px;
+	font-weight: bold;
+	color: black;
+}
+
+.red-text {
+	color: navy;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.margin-bottom-zero {
+	margin-bottom: 0px;
+}
+
+
+/* Navbar */
+.nav-item {
+	color: #ddd;
+}
+
+.nav-item:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #0B0B45;
+}
+
+.navbar button {
+	border: 0;
+}
+
+#title-wrapper {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	justify-self: center;
+	z-index: 1999;
+	width: 50vw;
+	margin-left: calc(25%);
+	top: -5px;
+	left: 0;
+}
+
+#current-page {
+	position: relative;
+	font-size: 20px;
+	color: #ddd;
+}
+
+
+/* Card body */
+.card {
+	border: none !important;
+	border-radius: 10px !important;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#back-button {
+	color: #ddd;
+	z-index: 9999;
+	background-color: #0B0B45;
+	transform: scale(2);
+	margin-top: 8px;
+	position: fixed;
+}
+
+#back-wrapper {
+	position: absolute;
+	z-index: 9999;
+	margin-left: 15px;
+	margin-top: -3px;
+	width: 60px;
+	height: 40px;
+	background-color: #0B0B45;
+}
+
+
+/* List */
+.list > * {
+	text-align: center;
+}
+
+.list-col {
+	display: flex;
+	justify-content: left;
+}
+
+.list-item-wrapper {
+	margin-bottom: 0;
+	margin-left: 35px;
+}
+
+.list-item-text {
+	font-size: 1.15em;
+}
+
+.list-group-item {
+	border: none !important;
+}
+
+.list-group > * {
+	color: black !important;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list-group > *:nth-child(2) {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.list-group > *:hover {
+	color: black !important;
+	text-decoration: none;
+}
+
+
+/* Notification */
+.notification-bell {
+	transform: rotate(30deg) scale(1.2);	 
+	margin-right: 5px;
+	margin-bottom: 3px;
+}
+
+.notification .card-body {
+	margin-bottom: 0px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+
+.notification-title {
+	font-weight: bold !important;
+	color: navy;
+	margin-bottom: 5px !important;
+}
+
+.notification * {
+	line-height: 1;
+}
+
+.notification .card-text {
+	margin: 0 !important;
+}
+
+.notification .card-text:nth-child(1) {
+	margin-bottom: 3px !important;
+}
+
+.notification .card-text {
+	font-size: 0.75em;
+	margin-bottom: 5px;
+}
+
+.timestamp {
+	font-size: 0.8em;
+	font-weight: 400 !important;
+	color: #555;
+	margin-left: 8px;
+}
